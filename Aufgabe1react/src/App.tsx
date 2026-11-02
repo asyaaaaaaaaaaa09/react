@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Bild from './bild'
+import Bild from './Bild'
 import Text from './Text'
 
 function App() {
