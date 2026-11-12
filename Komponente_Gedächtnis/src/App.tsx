@@ -1,6 +1,6 @@
-import Countdown from './Countdown'
-
-import styles from './App.module.css'
+import Pictures from './components/Pictures'
+import Header from './components/Header'
+import Content from './components/Content'
 
  
  
@@ -8,14 +8,9 @@ function App() {
  
   return (
     <>
-      <h1>Willkommen</h1>
+      <Header />
  
-      <div className={styles.cardcontainer}>
-
-        <Countdown title="susi" text="super susi" image="https://picsum.photos/200/300" />
-
-
-      </div>
+     <Content/>
  
     </>
   )
