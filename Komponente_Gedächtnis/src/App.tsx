@@ -1,16 +1,15 @@
-import Pictures from './components/Pictures'
-import Header from './components/Header'
-import Content from './components/Content'
-
+import School from './components/School'
+ 
+ 
  
  
 function App() {
  
   return (
     <>
-      <Header />
- 
-     <Content/>
+      <h1>Demo</h1>
+      <School name="My School" subjects={['mathe', 'english', 'deutsch']} />
+      <School name="Another School" subjects={['biologie', 'chemie', 'physik']} />
  
     </>
   )
